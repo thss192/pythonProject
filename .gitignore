@@ -1,0 +1,16 @@
+# 虚拟环境
+.venv/
+venv/
+
+# PyCharm 配置
+.idea/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 敏感配置（密码、API Key）
+.env
+
+# 运行产生的数据
+data/output/
