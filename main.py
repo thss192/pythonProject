@@ -1,10 +1,11 @@
 # main.py
 import sys
 from src.utils import get_current_time, ensure_dir
-
+from config.settings import APP_NAME, VERSION
 
 def run():
     print("🚀 项目开始运行...")
+    print(f"📦 {APP_NAME} v{VERSION}")
     print(f"🕒 当前时间: {get_current_time()}")
 
     output_dir = "data/output"
